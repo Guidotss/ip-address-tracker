@@ -1,4 +1,5 @@
 import { SearchIp } from "@/components";
+import { IpData } from "@/components/ui";
 import Image from "next/image";
 
 
@@ -17,6 +18,9 @@ export default function Home() {
         </div>
         <div className="absolute top-24 left-[450px]">
           <SearchIp/>
+        </div>
+        <div className="flex absolute top-48 left-[190px]">  
+          <IpData/>
         </div>
       </header>
     </main>
