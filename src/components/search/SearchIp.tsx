@@ -18,7 +18,7 @@ export const SearchIp = () => {
   return (
     <form className="flex" onSubmit={handleSubmit}>
       <input
-        className="w-[400px] p-3 rounded-l-lg px-10"
+        className="w-[400px] 2xl:w-[500px] p-3 rounded-l-lg px-10"
         type="text"
         placeholder="Search for any IP address or domain"
         value={ip}

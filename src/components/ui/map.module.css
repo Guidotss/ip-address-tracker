@@ -1,0 +1,12 @@
+.map { 
+    height: "400px";
+    width: "100%";
+    z-index: "0";
+    position: "absolute";
+}
+
+@media screen and (max-width: 768px) {
+    .map {
+        height: "300px";
+    }
+}
