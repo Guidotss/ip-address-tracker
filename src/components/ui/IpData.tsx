@@ -6,7 +6,7 @@ export const IpData = () => {
   console.log(ipLocation);
 
   return (
-    <div className="flex bg-slate-50 shadow-lg w-[950px] h-40 rounded-lg p-8">
+    <div className="flex bg-slate-50 shadow-lg w-[950px] h-40 rounded-lg p-8 z-10">
       <div className="border-r border-gray-300 w-full items-center font-bold">
         <h4 className="text-gray-500 text-sm mb-4">Ip Address</h4>
         <span className="text-xl">{ipLocation?.ip}</span>
