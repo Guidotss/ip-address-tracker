@@ -1,8 +1,8 @@
-import { IP } from '@/interface';
+import { IPData } from '@/interface';
 import { create } from 'zustand';
 
 interface IpStore {
-    ipLocation: IP | null;
+    ipLocation: IPData | null;
     error: string | null | unknown;
     loading: boolean;
     fetchIp: (ip: string) => Promise<void>;

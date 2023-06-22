@@ -21,7 +21,7 @@ export default function Home() {
           <SearchIp/>
         </div>
       </header>
-        <div className="flex absolute top-48 left-[190px] 2xl:top-72 2xl:left-[400px] z-10">  
+        <div className="flex absolute top-48 left-[190px] 2xl:top-72 2xl:left-[310px] z-10 shadow-xl">  
           <IpData/>
         </div>
         <div className="w-full absolute">
